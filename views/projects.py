@@ -1,6 +1,8 @@
 from flask import Blueprint, render_template
 from flask_restful import Api, Resource, url_for
 
+from models.tests import Test
+
 bp = Blueprint('project', __name__)
 api = Api(bp)
 

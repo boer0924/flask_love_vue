@@ -1,4 +1,4 @@
-# BoerOPS
+# Awesome Boer
 
 ## Usage
 

@@ -1,18 +1,18 @@
 <template>
-  <div name="hello">
+  <div name="home">
     <p>{{msg}}</p>
-    <router-link to="/home">
-      <el-button type="primary">Home</el-button>
+    <router-link to="/hello">
+      <el-button type="primary">Hello</el-button>
     </router-link>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'hello',
+  name: 'home',
   data () {
     return {
-      msg: '这是Hello页面'
+      msg: 'Welcome to Your Vue.js App'
     }
   }
 }
